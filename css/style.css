@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 162%;
 }
 
 .bg-gary {
@@ -202,15 +202,20 @@ ul.dashed > li:before {
 }
 
 /*pricing section*/
-@media (min-width: 1200px) {
-    .pricing-container {
-        width: 1500px;
-    }
+/*@media (min-width: 1200px) {*/
+/*    .pricing-container {*/
+/*        width: 1500px;*/
+/*    }*/
+/*}*/
+
+.pricing-container {
+    max-width: 1500px;
+    margin: auto;
 }
 
 .pricing-section {
     position: relative;
-    padding: 95px;
+    padding: 95px 5.5em;
 }
 
 .pricing-row {
