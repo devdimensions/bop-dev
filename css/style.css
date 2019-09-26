@@ -29,32 +29,37 @@ a:hover {
 
 /*top secton*/
 
-/*top secton*/
-
-
-/*New*************************/
-
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+.header {
+    padding-top: 30px;
 }
 
-.navbar-brand {
-    float: none;
-    text-align: center;
+.header .logo img {
+
+    max-width: 250px;
 }
 
-.navbar-header a:first-child {
-    width: auto;
+.header .nav-links {
+    float: right;
 }
 
-.navbar-brand img {
-    width: 100px;
+.header-content {
+    padding: 30px 0 90px 0;
+}
+
+.header-content h1 {
+    font-weight: 700;
+    font-size: 3.2em;
+    color: #000;
+    margin-bottom: 2.1em;
+    letter-spacing: .02em;
+}
+
+.header-content h2 {
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 700;
+    letter-spacing: .02em;
+    padding: 100px 0 50px 0;
 }
 
 /*top email mobile*/
@@ -62,68 +67,66 @@ a:hover {
 .contact-info {
     color: #fff;
     padding: 5px;
-    border-radius: 5px;
-    letter-spacing: 0.1px;
+    border-radius: 10px;
+    letter-spacing: 0.2px;
 }
 
-.pull-right a {
-    letter-spacing: 1px;
+.nav-links .link-2 {
+    margin-left: 12px;
+}
+
+.nav-links a {
     color: #000;
-    font-weight: 600;
+    letter-spacing: .2px;
 }
 
-.top-font {
-    color: #000;
+
+.btn-group {
+    margin: 30px auto;
+    max-width: 70%;
 }
 
-.top-text-discover {
-    font-size: 35px;
-    font-weight: 600;
-}
-
-.trail-text {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.towards-center {
-    margin: 5px auto;
-}
-
-.sperate-buttons {
-    margin: 30px 0;
-}
-
-.top-section-schedule {
+.btn-schedule-demo, .btn-learn-more {
     font-size: 3.5rem;
-    background-color: #0E6AB5;
-    padding: 10px 25px;
+    padding: 10px 30px;
     color: #ebebeb;
-    border: 5px solid #66339900;
-    border-radius: 5px;
+    border-radius: 10px;
     display: block;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
-.top-section-leran-more {
+.btn-schedule-demo {
+    background-color: #0E6AB5;
+    border: 5px solid #66339900;
+    margin-bottom: 15px;
+}
+
+.btn-learn-more {
     background-color: #ebebeb;
+    border: 7px solid #0E6AB5;
     color: #0E6AB5;
-    border: 5px solid #0E6AB5;
-    border-radius: 5px;
+}
+
+.btn-schedule-demo:hover, .btn-schedule-demo:active {
+    color: #fff;
+    background-color: rgba(14, 106, 181, .94);
+}
+
+.header ul.dashed li {
+    font-size: 1.8em;
+    font-weight: 400;
 }
 
 .list-heading {
-    font-size: 2.5rem;
-    line-height: 30px
+    font-size: 1.9em;
+    color: #000;
+    margin-bottom: 45px;
 }
 
-/*stream data*/
+/*streamline workflow section*/
 
 .work-flow-stream-line {
     position: relative;
 }
-
 
 .streamline-section::before, .streamline-section::after {
     content: '';
@@ -201,16 +204,9 @@ ul.dashed > li:before {
     text-indent: -5px;
 }
 
-/*pricing section*/
-/*@media (min-width: 1200px) {*/
-/*    .pricing-container {*/
-/*        width: 1500px;*/
-/*    }*/
-/*}*/
-
-.pricing-container {
+.custom-container {
     max-width: 1500px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .pricing-section {
@@ -263,6 +259,7 @@ ul.dashed > li:before {
 }
 
 .btn-schedule {
+    display: block;
     font-size: 2.9em;
     padding: .6em 1.4em;
     letter-spacing: .04em;
@@ -270,6 +267,8 @@ ul.dashed > li:before {
     border: none;
     border-radius: 10px;
     background-color: #0E6AB5;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .btn-schedule:hover {
