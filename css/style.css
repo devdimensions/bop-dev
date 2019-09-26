@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.bg-gary {
+    background-color: #ebebeb;
+}
+
+.bg-blue {
+    background-color: #0E6AB5;
+}
+
+.spacing-tb {
+    padding: 30px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*top secton*/
+
+/*top secton*/
+
+
+/*New*************************/
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    float: none;
+    text-align: center;
+}
+
+.navbar-header a:first-child {
+    width: auto;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+/*top email mobile*/
+
+.contact-info {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+}
+
+.pull-right a {
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 600;
+}
+
+.top-font {
+    color: #000;
+}
+
+.top-text-discover {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.trail-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.towards-center {
+    margin: 5px auto;
+}
+
+.sperate-buttons {
+    margin: 30px 0;
+}
+
+.top-section-schedule {
+    font-size: 3.5rem;
+    background-color: #0E6AB5;
+    padding: 10px 25px;
+    color: #ebebeb;
+    border: 5px solid #66339900;
+    border-radius: 5px;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.top-section-leran-more {
+    background-color: #ebebeb;
+    color: #0E6AB5;
+    border: 5px solid #0E6AB5;
+    border-radius: 5px;
+}
+
+.list-heading {
+    font-size: 2.5rem;
+    line-height: 30px
+}
+
+/*stream data*/
+
+.work-flow-stream-line {
+    position: relative;
+}
+
+
+.streamline-section::before, .streamline-section::after {
+    content: '';
+    position: absolute;
+    background-color: #EE9620;
+    width: 100%;
+    height: 20px;
+    left: 0;
+}
+
+.streamline-section::before {
+    top: -22px;
+}
+
+.streamline-section::after {
+    bottom: -22px;
+}
+
+.streamline-section .img-responsive {
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+/*All in one Pricing */
+
+.btn-kit {
+    font-size: 2.9em;
+    padding: .2em .4em;
+    letter-spacing: .04em;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: #0E6AB5;
+}
+
+.btn-kit:hover {
+    color: #fff;
+    background-color: rgba(14, 106, 181, .94);
+}
+
+.all-in-one-section {
+    padding: 130px 0 95px;
+}
+
+.all-in-one-content {
+    margin-top: 90px;
+}
+
+.all-in-one-content .img-responsive {
+    padding: 20px;
+}
+
+.all-in-one-section h4 {
+    margin-top: 70px;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+ul.dashed > li {
+    font-size: 2em;
+    text-indent: -5px;
+    line-height: 1.4em;
+    color: #000;
+}
+
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+/*pricing section*/
+@media (min-width: 1200px) {
+    .pricing-container {
+        width: 1500px;
+    }
+}
+
+.pricing-section {
+    position: relative;
+    padding: 95px;
+}
+
+.pricing-row {
+    display: flex;
+    align-items: center;
+}
+
+.pricing-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.pricing-bar::before {
+    content: '';
+    position: absolute;
+    background-color: #0E6AB5;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.pricing-box {
+    border: solid 7px #0E6AB5;
+    border-radius: 10px;
+    padding: 30px 0 30px 40px;
+}
+
+.pricing-box p {
+    font-weight: 400;
+    color: #0E6AB5;
+    font-size: 2.1em;
+}
+
+.pricing-box .pricing-header {
+    font-size: 2.3em;
+    padding-bottom: 30px;
+}
+
+.pricing-box .pricing-text span {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.btn-schedule {
+    font-size: 2.9em;
+    padding: .6em 1.4em;
+    letter-spacing: .04em;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: #0E6AB5;
+}
+
+.btn-schedule:hover {
+    color: #fff;
+    background-color: rgba(14, 106, 181, .94);
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.copyright {
+    color: #fff;
+}
+
+.copyright p {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+footer .img-responsive {
+    max-width: 110px;
+    margin: 0 auto;
+}
