@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 162%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .bg-gary {
